@@ -1,8 +1,8 @@
-
-"""
-Function used to calculate pi using wallis equation. 
-"""
 def wallis(n):
+    """Calculates approximation of PI using Wallis equation.
+
+    n -- number of n-first approximations
+    """
     if n >= 1:
         res = [2.0]
         for i in range(1, n+1):

@@ -1,8 +1,8 @@
 def gcd(a, b):
     """Calculates greatest common divisor of two integers.
 
-        a -- first integer
-        b -- second integer
+    a -- first integer
+    b -- second integer
     """
     while(b != 0):
         c = a % b
