@@ -1,6 +1,8 @@
 from funcs.wallis import wallis
 from funcs.gcd import gcd
 from funcs.eratostenes import eratostenes
+from funcs.lcm import lcm
+
 
 if __name__ == '__main__':
     
@@ -20,3 +22,9 @@ if __name__ == '__main__':
     b = 100
     print("Liczby pierwsze w przedziale od {0:d} do {1:d}:".format(a, b))
     print(', '.join(map(str, eratostenes(a, b))))
+
+    # Third task
+    print("\n# Podpunkt 3\n")
+    a = 192
+    b = 348
+    print("Najmniejsza wspolna wielokrotnosc dla liczb {} i {} wynosi {}.\n".format(a, b, lcm(a, b)))
