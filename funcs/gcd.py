@@ -1,8 +1,9 @@
-
-"""
-This function is used for calculating Greatest Common Divisor (GCD).
-"""
 def gcd(a, b):
+    """Calculates greatest common divisor of two integers.
+
+        a -- first integer
+        b -- second integer
+    """
     while(b != 0):
         c = a % b
         a = b
