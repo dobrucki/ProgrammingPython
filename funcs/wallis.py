@@ -12,4 +12,3 @@ def wallis(n):
         return res[1:]
     else:
         return []
-        

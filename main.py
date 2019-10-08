@@ -5,7 +5,7 @@ from funcs.lcm import lcm
 
 
 if __name__ == '__main__':
-    
+
     # First task
     print("\n# Podpunkt 1\n")
     n = 10
@@ -15,7 +15,7 @@ if __name__ == '__main__':
     a = 84
     b = 18
     print("Najwiekszy wspolny dzielnik liczb {} i {} to {}.\n".format(a, b, gcd(a, b)))
-    
+
     # Second task
     print("\n# Podpunkt 2\n")
     a = 2
@@ -27,4 +27,5 @@ if __name__ == '__main__':
     print("\n# Podpunkt 3\n")
     a = 192
     b = 348
-    print("Najmniejsza wspolna wielokrotnosc dla liczb {} i {} wynosi {}.\n".format(a, b, lcm(a, b)))
+    print("Najmniejsza wspolna wielokrotnosc dla liczb {} i {} wynosi {}.\n".format(
+        a, b, lcm(a, b)))
