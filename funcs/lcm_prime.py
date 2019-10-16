@@ -1,4 +1,4 @@
-from funcs.eratostenes import eratostenes
+from funcs.primes_era import eratostenes
 import collections
 from functools import reduce
 

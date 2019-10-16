@@ -1,7 +1,7 @@
-from funcs.wallis import wallis
-from funcs.gcd import gcd
-from funcs.eratostenes import eratostenes
-from funcs.lcm import lcm
+from funcs.pi_wal import wallis
+from funcs.gcd_euc import gcd
+from funcs.primes_era import eratostenes
+from funcs.lcm_prime import lcm
 
 
 if __name__ == '__main__':
