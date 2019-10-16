@@ -27,5 +27,6 @@ if __name__ == '__main__':
     print("\n# Podpunkt 3\n")
     a = 192
     b = 348
+    lcm(a, b)
     print("Najmniejsza wspolna wielokrotnosc dla liczb {} i {} wynosi {}.\n".format(
         a, b, lcm(a, b)))
